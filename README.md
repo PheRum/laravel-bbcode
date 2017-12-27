@@ -36,7 +36,7 @@ echo $bbcode->except('bold')
 
 By default the parser is case sensitive. But if you would like the parser to accept tags like `` [B]Bold Text[/B] `` it's really easy.
 ``` php
-$bbcode = new  PheRum\BBCode\BBCodeParser;
+$bbcode = new PheRum\BBCode\BBCodeParser;
 
 // Case insensitive
 echo $bbcode->parse('[b]Bold[/b] [I]Italic![/I]', true);

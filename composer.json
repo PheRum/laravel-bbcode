@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PheRum\\BBCode\\BBCodeServiceProvider.php"
+                "PheRum\\BBCode\\BBCodeServiceProvider"
             ],
             "aliases": {
                 "BBCode": "PheRum\\BBCode\\Facades\\BBCode"

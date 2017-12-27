@@ -1,0 +1,38 @@
+{
+    "name": "pherum/laravel-bbcode",
+    "description": "Parse your BBCode easy with this library.",
+    "keywords": [
+        "bbcode",
+        "parser",
+        "laravel"
+    ],
+    "homepage": "http://github.com/pherum/laravel-bbcode",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseph Landberg",
+            "email": "joseph.landberg@gmail.com",
+            "homepage": "http://github.com/golonka/"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PheRum\\BBCode\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PheRum\\BBCode\\BBCodeServiceProvider.php"
+            ],
+            "aliases": {
+                "BBCode": "PheRum\\BBCode\\Facades\\BBCode"
+            }
+        }
+    },
+    "minimum-stability": "stable"
+}

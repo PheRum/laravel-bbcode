@@ -1,9 +1,19 @@
-[![Latest Version](https://img.shields.io/github/release/pherum/laravel-bbcode.svg?style=flat-square)](https://github.com/pherum/laravel-bbcode/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/pherum/laravel-bbcode/master.svg?style=flat-square)](https://travis-ci.org/pherum/laravel-bbcode)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/pherum/laravel-bbcode/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/pherum/laravel-bbcode/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/pherum/laravel-bbcode/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/pherum/laravel-bbcode)
-[![Total Downloads](https://img.shields.io/packagist/dt/pherum/laravel-bbcode.svg?style=flat-square)](https://packagist.org/packages/pherum/laravel-bbcode)
+# Laravel BBCode
+
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![Build Status][ico-travis]][link-travis]
+[![StyleCI][ico-styleci]][link-styleci]
+[![Quality Score][ico-code-quality]][link-code-quality]
+[![Total Downloads][ico-downloads]][link-downloads]
+
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/57483039-40ad-4f75-9c86-33a0b4e38575/big.png)](https://insight.sensiolabs.com/projects/57483039-40ad-4f75-9c86-33a0b4e38575)
+
+
+
+## Description
+
+Parse your BBCode easy with laravel-bbcode
 
 ## Install
 
@@ -112,3 +122,18 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+[ico-version]: https://img.shields.io/packagist/v/pherum/laravel-bbcode.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pherum/laravel-bbcode/master.svg?style=flat-square
+[ico-styleci]: https://styleci.io/repos/65690597/shield
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pherum/laravel-bbcode.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pherum/laravel-bbcode.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/pherum/laravel-bbcode
+[link-travis]: https://travis-ci.org/pherum/laravel-bbcode
+[link-styleci]: https://styleci.io/repos/115532859
+[link-code-quality]: https://scrutinizer-ci.com/g/pherum/laravel-bbcode
+[link-downloads]: https://packagist.org/packages/pherum/laravel-bbcode
+[link-author]: https://github.com/PheRum
+[link-contributors]: ../../contributors

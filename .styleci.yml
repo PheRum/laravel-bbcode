@@ -1,0 +1,10 @@
+preset: psr2
+
+finder:
+  name:
+    - "*.php"
+  not-name:
+    - "*.stub"
+  path:
+    - "src"
+    - "tests"

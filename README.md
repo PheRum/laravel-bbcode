@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/57483039-40ad-4f75-9c86-33a0b4e38575/big.png)](https://insight.sensiolabs.com/projects/57483039-40ad-4f75-9c86-33a0b4e38575)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/517dd6ce-bf82-476c-960e-5b9c2ad32e51/big.png)](https://insight.sensiolabs.com/projects/517dd6ce-bf82-476c-960e-5b9c2ad32e51)
 
 
 

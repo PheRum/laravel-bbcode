@@ -7,9 +7,6 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/517dd6ce-bf82-476c-960e-5b9c2ad32e51/big.png)](https://insight.sensiolabs.com/projects/517dd6ce-bf82-476c-960e-5b9c2ad32e51)
-
-
 
 ## Description
 
@@ -20,7 +17,7 @@ Parse your BBCode easy with laravel-bbcode
 Via Composer
 
 ``` bash
-$ composer require pherum/laravel-bbcode
+composer require pherum/laravel-bbcode
 ```
 
 ## Usage
@@ -33,15 +30,14 @@ echo $bbcode->parse('[b]Bold Text![/b]');
 ```
 Would like the parser to not use all bbcodes? Just do like this.
 ``` php
-$bbcode = new  PheRum\BBCode\BBCodeParser;
+$bbcode = new PheRum\BBCode\BBCodeParser;
 
 echo $bbcode->only('bold', 'italic')
             ->parse('[b][u]Bold[/u] [i]Italic[/i]![/b]');
             // <strong>[u]Bold[/u] <em>Italic</em>!</strong>
 
 echo $bbcode->except('bold')
-            ->parse('[b]Bold[/b] [i]Italic[/i]');
-            // [b]Bold[/b] <em>Italic</em>
+            ->parse('[b]Bold[/b] [i]Italic[/i]');  // [b]Bold[/b] <em>Italic</em>
 ```
 
 By default the parser is case sensitive. But if you would like the parser to accept tags like `` [B]Bold Text[/B] `` it's really easy.
@@ -49,8 +45,7 @@ By default the parser is case sensitive. But if you would like the parser to acc
 $bbcode = new PheRum\BBCode\BBCodeParser;
 
 // Case insensitive
-echo $bbcode->parse('[b]Bold[/b] [I]Italic![/I]', true);
-     // <strong>Bold</strong> <em>Italic!</em>
+echo $bbcode->parse('[b]Bold[/b] [I]Italic![/I]', true); // <strong>Bold</strong> <em>Italic!</em>
 
 // Or like this
 
@@ -69,8 +64,7 @@ If you would like to completely remove all BBCode it's just one function call aw
 ``` php
     $bbcode = new PheRum\BBCode\BBCodeParser;
 
-    echo $bbcode->stripBBCodeTags('[b]Bold[/b] [i]Italic![/i]');
-         // Bold Italic!
+    echo $bbcode->stripBBCodeTags('[b]Bold[/b] [i]Italic![/i]');  // Bold Italic!
 ```
 
 ## Laravel integration
@@ -95,19 +89,17 @@ echo BBCode::parse('[b]Bold Text![/b]');
 
 // Limiting the parsers with the only method
 echo BBCode::only('bold', 'italic')
-        ->parse('[b][u]Bold[/u] [i]Italic[/i]![/b]');
-        // <strong>[u]Bold[/u] <em>Italic</em>!</strong>
+        ->parse('[b][u]Bold[/u] [i]Italic[/i]![/b]'); // <strong>[u]Bold[/u] <em>Italic</em>!</strong>
 
 // Or the except method
 echo BBCode::except('bold')
-        ->parse('[b]Bold[/b] [i]Italic[/i]');
-        // [b]Bold[/b] <em>Italic</em>
+        ->parse('[b]Bold[/b] [i]Italic[/i]'); // [b]Bold[/b] <em>Italic</em>
 ```
 
 ## Testing
 
 ``` bash
-$ phpunit
+phpunit
 ```
 
 ## Contributing

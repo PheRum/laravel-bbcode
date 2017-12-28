@@ -130,10 +130,10 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/pherum/laravel-bbcode.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/pherum/laravel-bbcode.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/pherum/laravel-bbcode
-[link-travis]: https://travis-ci.org/pherum/laravel-bbcode
+[link-packagist]: https://packagist.org/packages/PheRum/laravel-bbcode
+[link-travis]: https://travis-ci.org/PheRum/laravel-bbcode
 [link-styleci]: https://styleci.io/repos/115532859
-[link-code-quality]: https://scrutinizer-ci.com/g/pherum/laravel-bbcode
-[link-downloads]: https://packagist.org/packages/pherum/laravel-bbcode
+[link-code-quality]: https://scrutinizer-ci.com/g/PheRum/laravel-bbcode
+[link-downloads]: https://packagist.org/packages/PheRum/laravel-bbcode
 [link-author]: https://github.com/PheRum
 [link-contributors]: ../../contributors

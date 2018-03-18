@@ -92,7 +92,7 @@ class BBCodeParser
 
         'image' => [
             'pattern' => '/\[img\](.*?)\[\/img\]/s',
-            'replace' => '<img src="$`1">',
+            'replace' => '<img src="$1">',
             'content' => '$1',
         ],
 

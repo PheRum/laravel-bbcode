@@ -11,9 +11,9 @@ trait ArrayTrait
      * @param array $only    Chosen parsers
      * @return array parsers
      */
-    private function arrayOnly(array $parsers, $only)
+    private function arrayOnly(array $parsers, array $only): array
     {
-        return array_intersect_key($parsers, array_flip((array) $only));
+        return array_intersect_key($parsers, array_flip($only));
     }
 
     /**
@@ -23,8 +23,8 @@ trait ArrayTrait
      * @param array $except  Parsers to exclude
      * @return array parsers
      */
-    private function arrayExcept(array $parsers, $except)
+    private function arrayExcept(array $parsers, array $except): array
     {
-        return array_diff_key($parsers, array_flip((array) $except));
+        return array_diff_key($parsers, array_flip($except));
     }
 }
